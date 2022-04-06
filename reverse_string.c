@@ -12,8 +12,9 @@ void reverseString(char *in, char *out) {
 
 void reverseStringInPlace(char *in) {
   int i;
-  int N = strlen(in);
-  for (i = 0; i < N/2; ++i) {
+  int N = strlen(in)-1; // '-1' garante que não se troque o final da string '/0'
+  for (i = 0; i <= N/2; ++i) // '<=' garante que toda string seja invertida
+  { 
     char c = in[i];
     in[i] = in[N - i];
     in[N - i] = c;
