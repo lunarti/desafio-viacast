@@ -1,6 +1,6 @@
 ## Validação de código
 
-####Primeiramente se tratando do arquivo em C ([`reverse_string.c`](./reverse_string.c)):
+### Primeiramente se tratando do arquivo em C ([`reverse_string.c`](./reverse_string.c)):
 
 1. Em situações usuais, o código irá funcionar como esperado?
 
@@ -22,7 +22,7 @@ permitiu a varredura completa da String em questão. Retornando o resultado corr
 Comentaria o código, tentando evidenciar um pouco da lógica aplicada para cada função. Também adicionaria um 'out' na função 'reverseStringInPlace' assim como
 a função 'reverseString' apresenta.
 
-####Agora abordando o ([`shapes.py`](./shapes.py)):
+### Agora abordando o ([`shapes.py`](./shapes.py)):
 
 1. Em situações usuais, o código irá funcionar como esperado?
 2. Existe alguma situação em que não irá funcionar?
